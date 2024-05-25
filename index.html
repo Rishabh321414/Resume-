@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh G Purke </title>
+<link rel="stylesheet" href="style.css">
+<!----Font awesome cdn font icon css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="hore-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-r"></i>    
+                              
+                 <div class="logo-text">Rishabh</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="/rishabh.webp" alt="profie pic">
+                </div>
+
+                <div class="hero-text">
+                    
+                    <h5>Hi im <samp class="input"> frontend Developer</samp></h5>
+                    <h1>Rishabh</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing eli. soluta
+
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download</a>
+                        <a href="https://www.instagram.com/rishabh_0001r/" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.instagram.com/rishabh_0001r/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://www.discord.com/users/1020586177897705502"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://s.team/p/gnpc-brvv/CBVWGNHD"><i class="fa-brands fa-steam"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!---typed js for typing text effect-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script> 
+/** creating button click show hide navbar **/
+var togglebtn=document.querySelector(".togglebtn");
+var nav=document.querySelector(".navlinks");
+var links=document.querySelector(".navlinks li");
+
+togglebtn.addEventListener("click", function(){
+this.classList .toggle("click");
+nav.classList .toggle("open");
+})
+var typed=new Typed(".input",{
+strings:["Frontend Developer", "Web Developer"],
+
+typedSpeed:70,
+backSpeed:55,
+loop:true,
+})
+
+</script>
+</body>
+</html>
